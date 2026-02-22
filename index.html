@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>retro tower defense</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #fff;
+            color: #000;
+        }
+
+        /* ===== HEADER ===== */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px 60px;
+        }
+
+        .logo {
+            width: 120px;
+            height: 60px;
+            background: #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+         
+        .title {
+            text-align: center;
+            font-size: 42px;
+            margin-bottom: 40px;
+        }
+
+        /* ===== MAIN IMAGE ===== */
+        .hero {
+            width: 100%;
+            max-width: 1200px;
+            height: 450px;
+            background: #ddd;
+            margin: 0 auto 80px;
+        }
+
+        /* ===== TEXT BLOCK ===== */
+        .text-block {
+            width: 100%;
+            max-width: 1000px;
+            background: #ddd;
+            margin: 0 auto 80px;
+            padding: 40px;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        /* ===== VIDEO BLOCK ===== */
+        .video-block {
+            width: 100%;
+            max-width: 1000px;
+            margin: 0 auto 80px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .video-block iframe {
+            width: 100%;
+            height: 500px;
+            max-width: 1000px;
+        }
+
+        footer {
+            width: 100%;
+            max-width: 1200px;
+            height: 120px;
+            background: #ddd;
+            margin: 0 auto 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 768px) {
+            header {
+                padding: 20px;
+            }
+
+            .title {
+                font-size: 32px;
+            }
+
+            .hero {
+                height: 300px;
+            }
+
+            .video-block iframe {
+                height: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo"> <img src="logo.png" width="120px" height="60px"> </div>
+        <div class="logo"><img src="logo.png" width="120px" height="60px"> </div>
+    </header>
+
+    <div class="title">retro tower defense</div>
+
+    <img src="https://assetsio.gnwcdn.com/retro-tower-defense-0.webp?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp" width="100%">
+
+    <section class="text-block">
+       У цій грі треба захищати базу від ворогів завдяки персонажам різної рідкості;
+       звичайни , незвичайний , рідкісний , епічний , легендарний , лімітований та героїчний
+    </section>
+
+    <section class="text-block">
+       Щоб отримати персонажів треба нажати кнопку summon
+       ви даєте 100,1000,5000 TIX [TIX=валюта]
+       і ви отримуєте випадкового персонажа
+    </section>
+
+    <section class="text-block">
+       Щоб отримати TIX треба грати на різних картах різнго режиму складності
+    </section>
+
+    <!-- ===== VIDEO SECTION ===== -->
+    <section class="video-block">
+        <iframe 
+            src="https://www.youtube.com/embed/sg8_kd0YaK8?si=BdTzjOgn76FNURO_" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+        </iframe>
+    </section>
+
+    <footer>
+        Footer content © 2026
+    </footer>
+
+</body>
+</html>
